@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OKmzdy_pro_Windows>
+	<polozka name="Shortcut Desktop" value="1"/>
+	<polozka name="Archiv Folder" value="C:\ServerArchiv\"/>
+	<polozka name="Database Folder" value="C:\ServerData\"/>
+	<polozka name="Database Name" value="C:\ServerArchiv\okmzdyw.mdb"/>
+	<polozka name="Parent Folder" value="C:\ServerApp\"/>
+	<polozka name="Shortcut Folder" value="C:\ServerDesktop\"/>
+	<polozka name="SystemDB" value="C:\ServerArchiv\okmzdyw.mdw"/>
+	<polozka name="Tiskovy Folder" value="C:\ServerTisky\"/>
+	<DATA>
+		<konfigurace name="OKMZDY_MDB">
+			<polozka name="Database Provider" value="1"/>
+			<polozka name="Database Exclusive" value="0"/>
+			<polozka name="SystemDB Shared" value="0"/>
+			<polozka name="Tisknout Bitmapy" value="0"/>
+			<polozka name="Database Name" value="..\..\okmzdyw.mdb"/>
+			<polozka name="Database DSN" value="OKMZDY"/>
+			<polozka name="SystemDB" value="..\..\okmzdyw.mdw"/>
+			<polozka name="Database Server" value=""/>
+			<polozka name="Database User" value="okmzdy"/>
+			<polozka name="Database Psw" value="7355F5E53BC55173"/>
+			<polozka name="Database Owner" value="oksystem"/>
+			<polozka name="Database Owner Psw" value="D84A56202ED0ED46440DDDCD5B5C701C"/>
+			<polozka name="Database Archiv" value=""/>
+			<polozka name="Database Backup" value=""/>
+			<polozka name="Tiskove Soubory" value="C:\Program Files\OKsystem\OKmzdy pro Windows\OKMZDY\TISKY"/>
+			<polozka name="Database CmdExp" value=""/>
+			<polozka name="Database CmdImp" value=""/>
+			<polozka name="ODBC Driver Dbf" value="dBASE IV;"/>
+			<polozka name="ExportUM uvozovky" value=""/>
+			<polozka name="Database HRLink" value=""/>
+			<polozka name="remove_prac" value=""/>
+		</konfigurace>
+		<konfigurace name="OKMZDY_MSSQL">
+			<polozka name="Database Provider" value="18"/>
+			<polozka name="Database Exclusive" value="0"/>
+			<polozka name="SystemDB Shared" value="0"/>
+			<polozka name="Tisknout Bitmapy" value="0"/>
+			<polozka name="Database Name" value="NEW_EMPTY"/>
+			<polozka name="Database DSN" value="NEW_EMPTY"/>
+			<polozka name="SystemDB" value="C:\Program Files\OKsystem\OKmzdy pro Windows\Database\okmzdyw-mssql.mdw"/>
+			<polozka name="Database Server" value=".\SQLEXPRESS2014"/>
+			<polozka name="Database User" value="okmzdy"/>
+			<polozka name="Database Psw" value="55FCC22DE2E2049B00367EAA821B6B73"/>
+			<polozka name="Database Owner" value="oksystem"/>
+			<polozka name="Database Owner Psw" value="DA0E8433E89531A05C0F38DFCAF1ACCB"/>
+			<polozka name="Database Archiv" value=""/>
+			<polozka name="Database Backup" value=""/>
+			<polozka name="Tiskove Soubory" value="C:\Program Files\OKsystem\OKmzdy pro Windows\OKMZDY\TISKY"/>
+			<polozka name="Database CmdExp" value=""/>
+			<polozka name="Database CmdImp" value=""/>
+			<polozka name="ODBC Driver Dbf" value="dBASE IV;"/>
+			<polozka name="ExportUM uvozovky" value=""/>
+			<polozka name="Database HRLink" value=""/>
+			<polozka name="remove_prac" value=""/>
+		</konfigurace>
+		<konfigurace name="OKMZDY_SQLITE">
+			<polozka name="Database Provider" value="2"/>
+			<polozka name="Database Exclusive" value="0"/>
+			<polozka name="SystemDB Shared" value="0"/>
+			<polozka name="Tisknout Bitmapy" value="0"/>
+			<polozka name="Database Name" value="..\..\okmzdyw.sqlite"/>
+			<polozka name="Database DSN" value="OKMZDY"/>
+			<polozka name="SystemDB" value="..\..\okmzdyw.mdw"/>
+			<polozka name="Database Server" value=""/>
+			<polozka name="Database User" value="okmzdy"/>
+			<polozka name="Database Psw" value="7355F5E53BC55173"/>
+			<polozka name="Database Owner" value="oksystem"/>
+			<polozka name="Database Owner Psw" value="D84A56202ED0ED46440DDDCD5B5C701C"/>
+			<polozka name="Database Archiv" value=""/>
+			<polozka name="Database Backup" value=""/>
+			<polozka name="Tiskove Soubory" value="C:\Program Files\OKsystem\OKmzdy pro Windows\OKMZDY\TISKY"/>
+			<polozka name="Database CmdExp" value=""/>
+			<polozka name="Database CmdImp" value=""/>
+			<polozka name="ODBC Driver Dbf" value="dBASE IV;"/>
+			<polozka name="ExportUM uvozovky" value=""/>
+			<polozka name="Database HRLink" value=""/>
+			<polozka name="remove_prac" value=""/>
+		</konfigurace>
+	</DATA>
+</OKmzdy_pro_Windows>

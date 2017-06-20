@@ -1,0 +1,75 @@
+BODY
+{
+	width: 100%;
+    color: black;
+}
+
+DIV
+{
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+H1
+{
+	font-weight: bold;
+	font-size: 7.25pt;  
+	text-transform: uppercase;
+	text-align: left;
+	font-family: Microsoft Sans Serif;
+	border-bottom-color: rgb(123, 164, 224);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	margin-top: 0px;
+	margin-bottom : 4px;
+
+}
+
+H2
+{
+	font-size: 8pt;  
+	font-weight: bold;
+	text-align: left;
+	font-family: Microsoft Sans Serif;
+	border-bottom-color: rgb(150, 150, 150);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	margin-top: 8px;
+	margin-bottom: 0px;
+}
+
+H3
+{
+	font-size: 8pt;  
+	font-weight: bold;
+	text-align: left;
+	font-family: Microsoft Sans Serif;
+	margin-top: 4px;
+	margin-bottom: 2px;
+}
+
+
+TH
+{
+	font-weight: bold;
+	font-size: 8pt;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	font-family: Microsoft Sans Serif;
+	text-align: left;
+}
+
+TD
+{
+	text-align: left;
+	vertical-align : top;
+	font-weight: normal;
+	font-size: 8pt;  
+	font-family: 'Microsoft Sans Serif';
+	padding-top: 2px;
+	padding-bottom: 2px;  
+}
+.red_flag
+{
+	color: red;
+}

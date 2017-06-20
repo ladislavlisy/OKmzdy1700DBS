@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<CstmrCdtTrfInitn>
+<GrpHdr>
+<MsgId>SEPA043x022017-043</MsgId>
+<CreDtTm>2017-02-27T16:18:56</CreDtTm>
+<NbOfTxs>32</NbOfTxs>
+<CtrlSum>50904.95</CtrlSum>
+<InitgPty>
+<Nm>ZM MONTAL D.O.O.</Nm>
+<PstlAdr>
+<StrtNm>Netovická 386</StrtNm>
+<PstCd>27401</PstCd>
+<TwnNm>Slaný</TwnNm>
+<Ctry>CZ</Ctry>
+</PstlAdr>
+<Id>
+<OrgId>
+<Othr>
+<Id>KLIENT</Id>
+</Othr>
+</OrgId>
+</Id>
+</InitgPty>
+</GrpHdr>
+<PmtInf>
+<PmtInfId>SEPA043x022017-002</PmtInfId>
+<PmtMtd>TRF</PmtMtd>
+<BtchBookg>true</BtchBookg>
+<NbOfTxs>32</NbOfTxs>
+<CtrlSum>50904.95</CtrlSum>
+<PmtTpInf>
+<SvcLvl>
+<Cd>NURG</Cd>
+</SvcLvl>
+<CtgyPurp>
+<Cd>SALA</Cd>
+</CtgyPurp>
+</PmtTpInf>
+<ReqdExctnDt>2017-02-10</ReqdExctnDt>
+<Dbtr>
+<Nm>ZM MONTAL D.O.O.</Nm>
+<PstlAdr>
+<StrtNm>Netovická 386</StrtNm>
+<PstCd>27401</PstCd>
+<TwnNm>Slaný</TwnNm>
+<Ctry>CZ</Ctry>
+</PstlAdr>
+<Id>
+<OrgId>
+<Othr>
+<Id>04953207</Id>
+</Othr>
+</OrgId>
+</Id>
+</Dbtr>
+<DbtrAcct>
+<Id>
+<IBAN>CZ8303000000000274436135</IBAN>
+</Id>
+</DbtrAcct>
+<DbtrAgt>
+<FinInstnId>
+<BIC>CEKOCZPP</BIC>
+</FinInstnId>
+</DbtrAgt>
+<ChrgBr>SLEV</ChrgBr>
+<CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430043</InstrId>
+<EndToEndId>REF010430043</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">2102.37</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>PBZGHR2X</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Antunović Jozo</Nm>
+<PstlAdr>
+<Ctry>HR</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>HR1923400093230414652</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430044</InstrId>
+<EndToEndId>REF010430044</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">2119.58</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>ZABAHR2X</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Babić Mihovil</Nm>
+<PstlAdr>
+<Ctry>HR</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>HR1723600003243607120</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430045</InstrId>
+<EndToEndId>REF010430045</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">185.12</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>PBZGHR2X</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Bijelić Mario</Nm>
+<PstlAdr>
+<Ctry>HR</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>HR5423400093216327488</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430046</InstrId>
+<EndToEndId>REF010430046</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">2417.39</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>ZABAHR2X</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Bogdanović Drago</Nm>
+<PstlAdr>
+<Ctry>HR</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>HR1223600003237113254</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430047</InstrId>
+<EndToEndId>REF010430047</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">1958.44</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>PBZGHR2X</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Bošnjak Mato</Nm>
+<PstlAdr>
+<Ctry>HR</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>HR1623400093216049588</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430048</InstrId>
+<EndToEndId>REF010430048</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">1725.31</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>SOGEHR22</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Buzov Božo</Nm>
+<PstlAdr>
+<Ctry>HR</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>HR0323300033271849419</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430049</InstrId>
+<EndToEndId>REF010430049</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">181.53</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>HAABHR22</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Čolakovac Danijel</Nm>
+<PstlAdr>
+<Ctry>HR</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>HR9125000093221835574</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430050</InstrId>
+<EndToEndId>REF010430050</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">1318.36</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC></BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Gotić Ivan</Nm>
+<PstlAdr>
+<Ctry>CZ</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>HR6924840083292235949</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430051</InstrId>
+<EndToEndId>REF010430051</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">2188.01</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>PBZGHR2X</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Kanjugović Matija</Nm>
+<PstlAdr>
+<Ctry>HR</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>HR4223400093218351415</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430052</InstrId>
+<EndToEndId>REF010430052</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">2195.56</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>ZABAHR2X</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Kerhoni Richard</Nm>
+<PstlAdr>
+<Ctry>HR</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>HR0323600003244295393</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430053</InstrId>
+<EndToEndId>REF010430053</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">2192.34</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>PBZGHR2X</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Livaja Paško</Nm>
+<PstlAdr>
+<Ctry>HR</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>HR6723400093230345500</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430054</InstrId>
+<EndToEndId>REF010430054</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">2049.37</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>VBCRHR22</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Ljubas Marko</Nm>
+<PstlAdr>
+<Ctry>HR</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>HR9325030073201993174</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430055</InstrId>
+<EndToEndId>REF010430055</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">1984.46</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>JADRHR2X</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Lugović Paolo</Nm>
+<PstlAdr>
+<Ctry>HR</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>HR9524110063220059362</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430056</InstrId>
+<EndToEndId>REF010430056</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">1736.97</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>PBZGHR2X</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Mirković Marko</Nm>
+<PstlAdr>
+<Ctry>HR</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>HR6723400093219793452</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430057</InstrId>
+<EndToEndId>REF010430057</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">2582.01</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>KOMBCZPP</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Novosel Krot Mirko</Nm>
+<PstlAdr>
+<Ctry>CZ</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>CZ3401000000002141800297</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430058</InstrId>
+<EndToEndId>REF010430058</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">231.53</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>PBZGHR2X</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Paulić Josip</Nm>
+<PstlAdr>
+<Ctry>HR</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>HR4923400093216740701</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430059</InstrId>
+<EndToEndId>REF010430059</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">1992.86</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>ZABAHR2X</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Silov Stipo</Nm>
+<PstlAdr>
+<Ctry>HR</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>HR7823600003243587980</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430060</InstrId>
+<EndToEndId>REF010430060</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">3089.53</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>ESBCHR22</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Šop Darko</Nm>
+<PstlAdr>
+<Ctry>HR</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>HR3824020063203194842</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430061</InstrId>
+<EndToEndId>REF010430061</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">2226.46</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>PBZGHR2X</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Vidaković Dario</Nm>
+<PstlAdr>
+<Ctry>HR</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>HR3723400093219207530</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430062</InstrId>
+<EndToEndId>REF010430062</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">1328.98</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>CEKOCZPP</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Avramović Miroslav</Nm>
+<PstlAdr>
+<Ctry>CZ</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>CZ0903000000000275886744</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430063</InstrId>
+<EndToEndId>REF010430063</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">1386.97</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>CEKOCZPP</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Avramović Nenad</Nm>
+<PstlAdr>
+<Ctry>CZ</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>CZ0703000000000276428622</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430064</InstrId>
+<EndToEndId>REF010430064</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">1279.98</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>CEKOCZPP</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Čapkunović Marko</Nm>
+<PstlAdr>
+<Ctry>CZ</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>CZ2003000000000275875682</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430065</InstrId>
+<EndToEndId>REF010430065</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">1410.99</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>CEKOCZPP</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Durdević Miloš</Nm>
+<PstlAdr>
+<Ctry>CZ</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>CZ7503000000000276427689</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430066</InstrId>
+<EndToEndId>REF010430066</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">1135.97</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>CEKOCZPP</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Isailović Zoran</Nm>
+<PstlAdr>
+<Ctry>CZ</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>CZ3703000000000276426627</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430067</InstrId>
+<EndToEndId>REF010430067</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">1533.97</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>CEKOCZPP</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Kitanović Nenad</Nm>
+<PstlAdr>
+<Ctry>CZ</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>CZ0203000000000275876685</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430068</InstrId>
+<EndToEndId>REF010430068</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">1365.99</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>CEKOCZPP</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Maksimović Ivica</Nm>
+<PstlAdr>
+<Ctry>CZ</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>CZ1503000000000276431776</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430069</InstrId>
+<EndToEndId>REF010430069</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">1406.00</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>CEKOCZPP</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Prodanić Dejan</Nm>
+<PstlAdr>
+<Ctry>CZ</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>CZ1803000000000275881150</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430070</InstrId>
+<EndToEndId>REF010430070</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">1255.00</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>CEKOCZPP</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Rajković Aleksandar</Nm>
+<PstlAdr>
+<Ctry>CZ</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>CZ1703000000000275886891</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430071</InstrId>
+<EndToEndId>REF010430071</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">1386.97</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>CEKOCZPP</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Spasojević Miloš</Nm>
+<PstlAdr>
+<Ctry>CZ</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>CZ1503000000000276434977</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430072</InstrId>
+<EndToEndId>REF010430072</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">1315.99</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>CEKOCZPP</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Stojanović Perica</Nm>
+<PstlAdr>
+<Ctry>CZ</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>CZ8703000000000276435427</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430073</InstrId>
+<EndToEndId>REF010430073</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">1436.97</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>CEKOCZPP</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Urdov Dorde</Nm>
+<PstlAdr>
+<Ctry>CZ</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>CZ2003000000000275879368</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf><CdtTrfTxInf>
+<PmtId>
+<InstrId>REF010430074</InstrId>
+<EndToEndId>REF010430074</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="EUR">183.97</InstdAmt>
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>CEKOCZPP</BIC>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>Vlajkov Miroslav</Nm>
+<PstlAdr>
+<Ctry>CZ</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>CZ7903000000000275878306</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+<Strd>
+<AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+</Strd>
+</RmtInf>
+</CdtTrfTxInf>
+</PmtInf>
+</CstmrCdtTrfInitn>
+</Document>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CdtTrfTxInf xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03">
+  <PmtId>
+    <InstrId>REF010430050</InstrId>
+    <EndToEndId>REF010430050</EndToEndId>
+  </PmtId>
+  <Amt>
+    <InstdAmt Ccy="EUR">1318.36</InstdAmt>
+  </Amt>
+  <CdtrAgt>
+    <FinInstnId>
+      <BIC/>
+    </FinInstnId>
+  </CdtrAgt>
+  <Cdtr>
+    <Nm>Gotić Ivan</Nm>
+    <PstlAdr>
+      <Ctry>CZ</Ctry>
+    </PstlAdr>
+  </Cdtr>
+  <CdtrAcct>
+    <Id>
+      <IBAN>HR6924840083292235949</IBAN>
+    </Id>
+  </CdtrAcct>
+  <RmtInf>
+    <Ustrd>Zahraniční platby - výplaty (2017)</Ustrd>
+    <Strd>
+      <AddtlRmtInf>/VS/0000000009/SS/0000000000/KS/0000</AddtlRmtInf>
+    </Strd>
+  </RmtInf>
+</CdtTrfTxInf>
