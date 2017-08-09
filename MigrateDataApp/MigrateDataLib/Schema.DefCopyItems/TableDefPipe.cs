@@ -80,12 +80,18 @@ namespace MigrateDataLib.Schema.DefCopyItems
             {
                 if (field.GetSourceInfo() != null && field.GetTargetInfo() != null)
                 {
-                    IList<string> columnNames = field.TargetAllColumnNames();
+                    TableFieldInfo tableInfo = field.GetSourceInfo();
+                    bool bIsValidForXSelect = tableInfo.IncludeColumnType();
 
-                    foreach (string columnName in columnNames)
+                    if (bIsValidForXSelect)
                     {
-                        columnsList += columnName;
-                        columnsList += ", ";
+                        IList<string> columnNames = field.TargetAllColumnNames();
+
+                        foreach (string columnName in columnNames)
+                        {
+                            columnsList += columnName;
+                            columnsList += ", ";
+                        }
                     }
                 }
             }

@@ -764,7 +764,27 @@ namespace MigrateDataLib.Schema.DefInfoItems
 
             foreach (TableFieldInfo field in m_TableFields)
             {
-                if (field != null && field.IsValidInVersion(versCreate))
+                bool bIsValidForVersion = field.IsValidInVersion(versCreate);
+                if (field != null && bIsValidForVersion)
+                {
+                    columnsList += field.ColumnName;
+                    columnsList += ", ";
+                }
+            }
+            string columnListRet = columnsList.TrimEnd(DatabaseDef.TRIM_CHARS);
+
+            return columnListRet;
+        }
+
+        public string CreateSelectColumnList(UInt32 versCreate)
+        {
+            string columnsList = "";
+
+            foreach (TableFieldInfo field in m_TableFields)
+            {
+                bool bIsValidForVersion = field.IsValidInVersion(versCreate);
+                bool bIsValidForXSelect = field.IncludeColumnType();
+                if (field != null && bIsValidForVersion && bIsValidForXSelect)
                 {
                     columnsList += field.ColumnName;
                     columnsList += ", ";

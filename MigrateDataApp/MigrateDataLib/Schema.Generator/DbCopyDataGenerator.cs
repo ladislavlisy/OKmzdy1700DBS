@@ -26,7 +26,7 @@ namespace MigrateDataLib.Schema.Generator
         public const string COLUMN_NAME_AUTOID = DatabaseDef.COLUMN_NAME_AUTOID;
         public const string NAMEAUTO_REF_ID = DatabaseDef.NAMEAUTO_REF_ID;
 
-        const int LOGGER_COUNT = 100;
+        const int LOGGER_COUNT = 1000;
 
         protected DbsDataConfig SrcConfig;
         protected UInt32 Version;
@@ -99,7 +99,7 @@ namespace MigrateDataLib.Schema.Generator
 
         public IGeneratorWriter CreateExecutor(string appRootFolder, DbsDataConfig appDataConfig, bool outBase64)
         {
-            return new ScriptExecutor(appRootFolder, appDataConfig);
+            return new ConsoleExecutor(appRootFolder, appDataConfig);
         }
 
         private bool NullColumnInRelation(RelationDefInfo newRelation, TableDefPipe newRefTable)
@@ -433,9 +433,28 @@ namespace MigrateDataLib.Schema.Generator
 
             string TABLE_NAME = tableCopy.TableName();
 
+            processWriter.WriteInfoLine("> {0}: (BEGIN) ... migrating data", TABLE_NAME);
+
             string selectCountSql = sourceBuilder.CreateTableFromPart(tableCopy, Version);
 
-            Int32 tableRowsCount = source.SelectRowCountTableData(TABLE_NAME, selectCountSql);
+            Int32 tableRowsCount = 0;
+
+            try
+            {
+                tableRowsCount = source.SelectRowCountTableData(TABLE_NAME, selectCountSql);
+            }
+            catch (OverflowException ex)
+            {
+                processWriter.WriteInfoLine(ex.ToString());
+            }
+            catch (DbException ex)
+            {
+                processWriter.WriteInfoLine(ex.ToString());
+            }
+            catch (Exception ex)
+            {
+                processWriter.WriteInfoLine(ex.ToString());
+            }
 
             string selectTableSql = sourceBuilder.CreateSelectCommand(tableCopy, Version);
 

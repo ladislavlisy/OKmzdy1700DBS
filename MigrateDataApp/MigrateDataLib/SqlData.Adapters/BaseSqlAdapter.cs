@@ -57,6 +57,10 @@ namespace MigrateDataLib.SqlData.Adapters
         {
             return (m_platformType == DBPlatform.DATA_PROVIDER_ODBC_MSSQL || m_platformType == DBPlatform.DATA_PROVIDER_ODBC_IMSSQL);
         }
+        public bool IsOracleType()
+        {
+            return (m_platformType == DBPlatform.DATA_PROVIDER_ODBC_ORACLE);
+        }
 
         public string DatabaseName()
         {
@@ -103,7 +107,7 @@ namespace MigrateDataLib.SqlData.Adapters
             {
                 if (reader.Read())
                 {
-                    commandResult = reader.GetInt32(reader.GetOrdinal("POCET"));
+                    commandResult = GetCountFromReader(reader, "POCET");
                 }
             }
             return commandResult;
@@ -120,7 +124,7 @@ namespace MigrateDataLib.SqlData.Adapters
             {
                 if (reader.Read())
                 {
-                    commandResult = reader.GetInt32(reader.GetOrdinal("POCET"));
+                    commandResult = GetCountFromReader(reader, "POCET");
                 }
             }
             return commandResult;
@@ -135,10 +139,40 @@ namespace MigrateDataLib.SqlData.Adapters
             {
                 if (reader.Read())
                 {
-                    diffCount = reader.GetInt32(reader.GetOrdinal("DIFF_COUNT"));
+                    diffCount = GetCountFromReader(reader, "DIFF_COUNT");
                 }
             }
             return diffCount;
+        }
+
+        private Int32 GetCountFromReader(DbDataReader reader, string columnName)
+        {
+            Int32 commandResult = 0;
+
+            int columnOrdinal = reader.GetOrdinal(columnName);
+
+            if (IsOracleType())
+            {
+                object commandResultObj = reader.GetValue(columnOrdinal);
+                string commandResultStr = commandResultObj.ToString();
+
+                commandResult = Int32.Parse(commandResultStr);
+            }
+            else
+            {
+                try
+                {
+                    commandResult = reader.GetInt32(columnOrdinal);
+                }
+                catch (InvalidCastException e)
+                {
+                    object commandResultObj = reader.GetValue(columnOrdinal);
+                    string commandResultStr = commandResultObj.ToString();
+
+                    commandResult = Int32.Parse(commandResultStr);
+                }
+            }
+            return commandResult;
         }
 
         private string CreateSelectCountTableRow(TableDefInfo tableInfo)

@@ -100,7 +100,7 @@ namespace MigrateDataLib.Schema.Builder
         {
             string sqlCommand = "SELECT ";
 
-            sqlCommand += tableInfo.CreateColumnList(versCreate);
+            sqlCommand += tableInfo.CreateSelectColumnList(versCreate);
 
             sqlCommand += " FROM ";
             sqlCommand += tableInfo.TableName();

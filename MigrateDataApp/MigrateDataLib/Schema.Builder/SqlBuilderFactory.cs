@@ -20,6 +20,8 @@ namespace MigrateDataLib.Schema.Builder
                     return new ScriptBuilderMsJet(config) as ISqlScriptBuilder;
                 case DbsDataConfigKeys.DATA_PROVIDER_SQLITE:
                     return new ScriptBuilderSqlite(config) as ISqlScriptBuilder;
+                case DbsDataConfigKeys.DATA_PROVIDER_ODBC_ORACLE:
+                    return new ScriptBuilderOracle(config) as ISqlScriptBuilder;
                 default:
                     throw new NotImplementedException();
             }

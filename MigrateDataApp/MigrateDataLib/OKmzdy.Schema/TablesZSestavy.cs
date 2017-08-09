@@ -1333,9 +1333,9 @@ namespace MigrateDataLib.OKmzdy.Schema
             CreateField("mesic", DB_BYTE, dbNotNullFieldOption);
             CreateField("vyuct_cast", DB_BYTE, dbNotNullFieldOption);
             CreateFTEXT("mena", DB_TEXT, 10, dbNullFieldOption);
-            CreateField("castkakc", DB_LONG, dbNotNullFieldOption);
-            CreateField("castka_mena", DB_LONG, dbNotNullFieldOption);
-            CreateField("kurz_mena", DB_LONG, dbNotNullFieldOption);
+            CreateField("castkakc", DB_DOUBLE, dbNotNullFieldOption);
+            CreateField("castka_mena", DB_DOUBLE, dbNotNullFieldOption);
+            CreateField("kurz_mena", DB_DOUBLE, dbNotNullFieldOption);
             CreateField("datum_kurz", DB_DATE, dbNullFieldOption);
             CreateField("datum_vypl", DB_DATE, dbNullFieldOption);
             CreateField("datum_exp", DB_DATE, dbNullFieldOption);

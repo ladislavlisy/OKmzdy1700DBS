@@ -142,6 +142,11 @@ namespace MigrateDataLib.Schema.DefInfoItems
                             dataColumn += "0";
                         }
                         else
+                        if (dataItem.CompareTo("0") == 0)
+                        {
+                            dataColumn += "0";
+                        }
+                        else
                         {
                             dataColumn += "1";
                         }
@@ -162,6 +167,7 @@ namespace MigrateDataLib.Schema.DefInfoItems
                         dataColumn += dataItem;
                         break;
                     case DatabaseDef.DB_DOUBLE:
+                        dataItem.Replace(',', '.');       //vymena carky za tecku
                         dataColumn += dataItem;
                         break;
                     case DatabaseDef.DB_DATE:

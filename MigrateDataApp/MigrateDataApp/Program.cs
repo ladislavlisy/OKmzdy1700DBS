@@ -2,8 +2,8 @@
 //#define __CREATE_DATABASE_SCHEMA__
 //#define __COMPARE_DATABASE_SCHEMA__
 //#define __COMPARE_DATABASE_DATA__
-//#define __CREATE_DATABASE_DATA_CLONE__
-#define __CREATE_SOURCE_FOR_ENTITY_CPP__
+#define __CREATE_DATABASE_DATA_CLONE__
+//#define __CREATE_SOURCE_FOR_ENTITY_CPP__
 
 using MigrateDataLib;
 using MigrateDataLib.Config.DbsData;
@@ -85,11 +85,11 @@ namespace MigrateDataApp
 
             uint buildVersion = 1700;
 
-#if __CREATE_SCHEMA_SCRIPT__ 
+#if __CREATE_SCHEMA_SCRIPT__
             MigrateDataTools.GenerateSqlScript(appRootFolder, appDataConfig, buildOptions, buildSubsets, buildVersion);
 #endif
 
-#if __CREATE_NEXT_DATABASE_SCHEMA__ 
+#if __CREATE_NEXT_DATABASE_SCHEMA__
             appDataConfig.ConfigName = "NEXT_EMPTY";
             appDataConfig.PlatformType = 18;
             appDataConfig.DatabaseName = "NEXT_EMPTY";
@@ -118,7 +118,7 @@ namespace MigrateDataApp
             buildOptions.InsertTableData = false;
             MigrateDataTools.GenerateTargetDatabase(appRootFolder, appDataConfig, buildOptions, buildSubsets, buildVersion);
 #endif
-#if __CREATE_DATABASE_SCHEMA__ 
+#if __CREATE_DATABASE_SCHEMA__
             appDataConfig.ConfigName = "SQLITE_EMPTY";
             appDataConfig.PlatformType = 2;
             appDataConfig.DatabaseName = "okmzdysq";
@@ -135,7 +135,7 @@ namespace MigrateDataApp
             buildOptions.InsertTableData = false;
             MigrateDataTools.GenerateSourceDatabase(appRootFolder, appDataConfig, buildOptions, buildSubsets, buildVersion);
 #endif
-#if __CREATE_DATABASE_DATA_CLONE__ 
+#if __CREATE_DATABASE_DATA_CLONE__
             //srcDataConfig.ConfigName = "OK_EMPTY";
             //srcDataConfig.PlatformType = 18;
             //srcDataConfig.DatabaseName = "OK_EMPTY";
@@ -182,29 +182,30 @@ namespace MigrateDataApp
             //trgDataConfig.UserName = "okmzdy";
             //trgDataConfig.UserPssw = "55FCC22DE2E2049B00367EAA821B6B73";
 
-            srcDataConfig.ConfigName = "X17ROK_2017";
-            srcDataConfig.PlatformType = 18;
-            srcDataConfig.DatabaseName = "X17ROK_2017";
-            srcDataConfig.DataFileName = "X17ROK_2017";
+            srcDataConfig.ConfigName = "ORA_SOURCE";
+            srcDataConfig.PlatformType = 6;
+            srcDataConfig.DatabaseName = "okmzdy";
+            srcDataConfig.DataFileName = "okmzdy";
             srcDataConfig.SystFileName = EMPTY_STRING;
-            srcDataConfig.DbServerName = ".\\SQLEXPRESS2014";
+            srcDataConfig.DbServerName = "okmzdy";
             srcDataConfig.OwnerName = "oksystem";
-            srcDataConfig.OwnerPssw = "DA0E8433E89531A05C0F38DFCAF1ACCB";
+            srcDataConfig.OwnerPssw = "43D22E4F836952D44BDBEF6BC68A39A5";
+            //srcDataConfig.OwnerPssw = "D84A56202ED0ED46440DDDCD5B5C701C";
             srcDataConfig.UserName = "okmzdy";
-            srcDataConfig.UserPssw = "55FCC22DE2E2049B00367EAA821B6B73";
+            //srcDataConfig.UserPssw = "EBA5C3BBF9D45B15";
+            srcDataConfig.UserPssw = "D76E8125FBF4803D6C87BCAB078ABC63";
 
-            trgDataConfig.ConfigName = "OK_MDB_EMPTY";
-            trgDataConfig.PlatformType = 1;
-            trgDataConfig.DatabaseName = "okmzdyw";
-            trgDataConfig.DataFileName = "..\\..\\X17ROK_2017\\okmzdyw.mdb";
-            trgDataConfig.SystFileName = "..\\..\\X17ROK_2017\\okmzdyw.mdw";
-            trgDataConfig.DbServerName = EMPTY_STRING;
-            trgDataConfig.OwnerName = "admin";
-            trgDataConfig.OwnerPssw = "2C1A313A0F528234";
+
+            trgDataConfig.ConfigName = "SQL_TARGET";
+            trgDataConfig.PlatformType = 10;
+            trgDataConfig.DatabaseName = "PREVOD_ORA";
+            trgDataConfig.DataFileName = "PREVOD_ORA";
+            trgDataConfig.SystFileName = EMPTY_STRING;
+            trgDataConfig.DbServerName = "OKMZDYORAEE\\SQLEXPRESS14";
             trgDataConfig.OwnerName = "oksystem";
-            trgDataConfig.OwnerPssw = "D84A56202ED0ED46440DDDCD5B5C701C";
+            trgDataConfig.OwnerPssw = "DA0E8433E89531A05C0F38DFCAF1ACCB";
             trgDataConfig.UserName = "okmzdy";
-            trgDataConfig.UserPssw = "7355F5E53BC55173";
+            trgDataConfig.UserPssw = "55FCC22DE2E2049B00367EAA821B6B73";
 
             buildOptions.InsertTableData = true;
             MigrateDataTools.DuplicateDatabase(appRootFolder, srcDataConfig, trgDataConfig, buildOptions, buildSubsets, buildVersion);

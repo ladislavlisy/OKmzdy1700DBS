@@ -20,6 +20,8 @@ namespace MigrateDataLib.SqlData.Adapters
                     return new SqlMsJetAdapter(config) as ISqlAdapter;
                 case DbsDataConfigKeys.DATA_PROVIDER_SQLITE:
                     return new SqlSqliteAdapter(config) as ISqlAdapter;
+                case DbsDataConfigKeys.DATA_PROVIDER_ODBC_ORACLE:
+                    return new SqlOracleAdapter(config) as ISqlAdapter;
                 default:
                     throw new NotImplementedException();
             }
